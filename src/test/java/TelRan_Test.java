@@ -7,8 +7,6 @@ public class TelRan_Test extends TestBase {
     @Test
     public void TelRanNavigateMenuTest() throws InterruptedException {
         openSite("https://www.tel-ran.com/");
-
-
         pause(5000);
         for(int i = 2;i<=7;i++) {
             String menuTitle = getMenuTitle(i);
